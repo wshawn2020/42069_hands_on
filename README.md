@@ -46,7 +46,3 @@ A demo video (`demo.webm`) is included in the repository, providing a visual ove
 ## Dataset
 
 The dataset used in this project is based on CIC-IDS2017, a comprehensive dataset for intrusion detection research, provided by the Canadian Institute for Cybersecurity.
-
-## License
-
-This project is licensed under the MIT License. See the LICENSE file for details.
