@@ -1,0 +1,14 @@
+version: '3.8'
+services:
+  python-auto:
+    build: .
+    image: my-python-auto
+    container_name: my-auto-container
+    environment:
+      - DATASET_PATH=/app/data/dataset.csv
+    volumes:
+      - ./data:/app/data
+      - ./results:/app/results
+    stdin_open: true  # Enables interactive mode
+    tty: true        # Allocates a pseudo-TTY
+    restart: unless-stopped
